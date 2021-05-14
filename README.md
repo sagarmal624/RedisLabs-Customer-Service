@@ -6,12 +6,14 @@ This Service is used to handle all customer related requests and created all cus
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
 #### Steps to Setup on Local
- Step 1:- Install Java 8+ Version
+``` Step 1:- Install Java 8+ Version
  Step 2:- Install Latest Maven
  Step 3:   Download and Install Mysql8+ version
  Step 4:-  ```mvn clean install```
  Step 5:  Update jdbc connection host,username,password,db etc in propertiles file
  Step 4: ```mvn spring-boot:run```
+``` 
+ 
 #### Steps to Setup in docker enviornment
  Step 1:- Download and Install Docker
  Step 2:  ``` mvn clean package ```(Need to run this command in root dir of MicroService)
